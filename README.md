@@ -1,19 +1,19 @@
 # Folderul-meu-online
 
 Scenario 1: Utilizator nelogat 
-Given: Utilizatorul se afla pe pagina utest.com la video „How utest Works”
+Given: Utilizatorul se afla pe pagina utest.com la video “How utest Works”
 When: Utilizatorul da click pe butonul play 
-Then: Ar trebuica video sa se deschida în fereastra noua si sa deruleze automat.
+Then: Ar trebuica video sa se deschida in fereastra noua si sa deruleze automat.
 
 Given: Utilizatorul se afla pe pagina principala la site-ul utest.com
-When: Utilizatorul da click pe butonul „Log In”
+When: Utilizatorul da click pe butonul “Log In”
 Then: Ar trebui sa fie redirectionat la pagina de logare
 
-Given: Utilizatorul se afla la sectiunea „Frequently Asked Questions”
+Given: Utilizatorul se afla la sectiunea “Frequently Asked Questions”
 When: Utilizatorul da click pe sageata de drop down
-Then: Ar trebui mai jos sa apara ra>spunsul la întrebare în chenar alb 
+Then: Ar trebui mai jos sa apara raspunsul la intrebare in chenar alb 
 
-Given: Utilizatorul da scroll în jos pâna la pictogramele de social media
+Given: Utilizatorul da scroll in jos pâna la pictogramele de social media
 When: Utilizatorul da click pe pictograma de twitter 
 Then: Ar trebui sa se deschidao fereastra noua cu pagina de twiter a siteului Utest.com  
 When: Utilizatorul da  click pe pictograma de facebook
@@ -25,20 +25,20 @@ Then: Ar trebui sa se deschida o fereastra noua cu pagina de instagram a siteulu
 
 
 
-Scenario 2: Utilizator neînregistrat pe site
+Scenario 2: Utilizator neinregistrat pe site
 Given: Utilizatorl se afla pe pagina principala la site-ul utest.com
-When:Utilizatorul da click pe butonul „Join Today” 
-Then:Ar trebui sa fie redirec?ionat la pagina de creare cont
-When:Utilizatorul da click pe butonul „Sign me up!” 
-Then:Ar trebui sa fie redirec?ionat la pagina de creare cont
-When:Utilizatorul da click pe butonul „Become a uTester” 
-Then:Ar trebui sa fie redirec?ionat la pagina de creare cont
+When:Utilizatorul da click pe butonul “Join Today” 
+Then:Ar trebui sa fie redirectionat la pagina de creare cont
+When:Utilizatorul da click pe butonul “Sign me up!”
+Then:Ar trebui sa fie redirectionat la pagina de creare cont
+When:Utilizatorul da click pe butonul “Become a uTester”
+Then:Ar trebui sa fie redirectionat la pagina de creare cont
 
 
 
 Given: Utiliatorul se afla la pagina de creare cont 
 When: Utilizatorul nu completeaza vreun placeholder obligatoriu 
-And: Da click butonul albastru „Next”
+And: Da click butonul albastru “Next”
 Then: Ar trebui sa vada eroare
 
 
